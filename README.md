@@ -1,4 +1,4 @@
-# Joca Games
+# Gaming Company Website
 
 Hey there!
 
