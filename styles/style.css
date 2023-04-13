@@ -26,17 +26,17 @@ header {
 	gap: 200px;
 }
 
-.menu__logoBox img {
+.menu-logoBox img {
 	width: 25vw;
 }
 
-.menu__nav {
+.menu-nav {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 16px;
 }
 
-.menu__nav__option {
+.menu-nav-option {
 	text-transform: uppercase;
 	color: var(--secondary-color);
 	font-weight: bold;
@@ -44,7 +44,7 @@ header {
 	text-decoration: none;
 }
 
-.menu__nav__option:hover {
+.menu-nav-option:hover {
 	color: var(--tertiary-color);
 }
 
@@ -58,7 +58,7 @@ header {
 		align-items: center;
 	}
 
-	.about__box {
+	.about-box {
 		background-color: var(--primary-color);
 		display: flex;
 		flex-direction: column;
@@ -69,11 +69,11 @@ header {
 		box-shadow: 5px 5px 20px #000000;
 	}
 
-	.about__box a {
+	.about-box a {
 		text-decoration: none;
 	}
 
-	.about__box h1 {
+	.about-box h1 {
 		color: var(--tertiary-color);
 		font-weight: bold;
 		font-size: 2.5rem;
@@ -81,21 +81,21 @@ header {
 		text-shadow: 1px 1px 2px var(--bg-color);
 	}
 
-	.about__box h1:hover {
+	.about-box h1:hover {
 		transform: scale(1.02);
 	}
 
-	.about__box p {
+	.about-box p {
 		color: var(--secondary-color);
 		font-size: 1.25rem;
 		text-align: center;
 	}
 
-	.about__box p strong {
+	.about-box p strong {
 		font-weight: bold;
 	}
 
-	.about__box p em {
+	.about-box p em {
 		font-style: italic;
 	}
 
@@ -123,12 +123,12 @@ header {
 		font-style: italic;
 	}
 
-	.games__title {
+	.games-title {
 		width: 80%;
 		margin: 0 auto;
 	}
 
-	.games__title__text {
+	.games-title-text {
 		background-color: var(--primary-color);
 		border-radius: 16px;
 		padding: 4px 0;
@@ -140,7 +140,7 @@ header {
 		margin: 2rem 0 0;
 	}
 
-	.games__farfromhome {
+	.games-farfromhome {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -148,7 +148,7 @@ header {
 		margin: 5vw 12vw 0;
 	}
 
-	.games__farfromhome__text {
+	.games-farfromhome-text {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -160,7 +160,7 @@ header {
 		border-radius: 32px;
 	}
 
-	.games__comingsoon {
+	.games-comingsoon {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -168,7 +168,7 @@ header {
 		margin: 5vw 12vw;
 	}
 
-	.games__comingsoon__text {
+	.games-comingsoon-text {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -182,12 +182,12 @@ header {
 
 	/* css da página de time */
 
-	.teamPage__title {
+	.teamPage-title {
 		width: 80%;
 		margin: 0 auto;
 	}
 
-	.teamPage__title__text {
+	.teamPage-title-text {
 		background-color: var(--primary-color);
 		border-radius: 16px;
 		padding: 4px 0;
@@ -199,7 +199,7 @@ header {
 		margin: 2rem 0 0;
 	}
 
-	.teamPage__Joca {
+	.teamPage-joca {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-start;
@@ -209,7 +209,7 @@ header {
 		margin: 0 0 0 15%;
 	}
 
-	.teamPage__Guilherme {
+	.teamPage-guilherme {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-start;
@@ -219,7 +219,7 @@ header {
 		margin: 0 0 0 15%;
 	}
 
-	.team__portrait {
+	.team-portrait {
 		display: inline-block;
 		text-align: center;
 		width: 20%;
@@ -233,44 +233,44 @@ header {
 		box-shadow: 1px 1px 5px #000000;
 	}
 
-	.team__portrait h2 {
+	.team-portrait h2 {
 		font-size: 22px;
 		font-weight: bold;
 		margin-bottom: 32px;
 	}
 
-	.team__pictures {
+	.team-pictures {
 		width: 250px;
 		height: 250px;
 	}
 
-	.team__role {
+	.team-role {
 		margin-top: 32px;
 		font-size: 16px;
 	}
 
-	.team__description {
+	.team-description {
 		width: 58%;
 	}
 
-	.team__description h3 {
+	.team-description h3 {
 		margin: 0 0 1rem;
 		text-align: justify;
 		font-weight: bold;
 		font-size: 1.125rem;
 	}
 
-	.team__description p {
+	.team-description p {
 		margin: 0 0 1rem;
 		text-align: justify;
 	}
 
-	.team__description li {
+	.team-description li {
 		margin: 0 0 1rem;
 		text-align: justify;
 	}
 
-	.team__description li::before {
+	.team-description li::before {
 		content: ">";
 		background: var(--primary-color);
 		font-family: serif;
@@ -288,12 +288,12 @@ header {
 
 	/* css da página de contato */
 
-	.contactPage__title {
+	.contactPage-title {
 		width: 80%;
 		margin: 0 auto;
 	}
 
-	.contactPage__title__text {
+	.contactPage-title-text {
 		background-color: var(--primary-color);
 		border-radius: 16px;
 		padding: 4px 0;
@@ -323,7 +323,7 @@ header {
 		padding: 5px 10px;
 	}
 
-	.checkbox__container {
+	.checkbox-container {
 		margin: 20px 0;
 	}
 
@@ -374,12 +374,12 @@ footer {
 		gap: 1rem;
 	}
 
-	.menu__logoBox img {
+	.menu-logoBox img {
 		width: 50vw;
 		margin: 0 0 0 1rem;
 	}
 
-	.menu__nav__option {
+	.menu-nav-option {
 		font-size: 1rem;
 	}
 
@@ -387,7 +387,7 @@ footer {
 		background-image: url("../assets/bg_landing_mobile.png");
 	}
 
-	.about__box {
+	.about-box {
 		gap: 1rem;
 		margin: 10vw 10vw;
 		padding: 5vw;
@@ -395,15 +395,15 @@ footer {
 		box-shadow: 5px 5px 20px #000000;
 	}
 
-	.about__box h1 {
+	.about-box h1 {
 		font-size: 2rem;
 	}
 
-	.about__box p {
+	.about-box p {
 		font-size: 1.1rem;
 	}
 
-	.games__farfromhome {
+	.games-farfromhome {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -411,7 +411,7 @@ footer {
 		margin: 5vw 12vw 0;
 	}
 
-	.games__comingsoon {
+	.games-comingsoon {
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: space-between;
@@ -419,11 +419,11 @@ footer {
 		margin: 5vw 12vw;
 	}
 
-	.teamPage__title {
+	.teamPage-title {
 		width: 90%;
 	}
 
-	.teamPage__Joca {
+	.teamPage-joca {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -432,7 +432,7 @@ footer {
 		gap: 10%;
 	}
 
-	.teamPage__Guilherme {
+	.teamPage-guilherme {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -441,28 +441,28 @@ footer {
 		gap: 10%;
 	}
 
-	.team__portrait {
+	.team-portrait {
 		width: 70%;
 		padding: 24px 0;
 		margin-bottom: 1rem;
 	}
 
-	.team__pictures {
+	.team-pictures {
 		width: 95%;
 	}
 
-	.team__description {
+	.team-description {
 		width: 80%;
 	}
 
-	.team__description h3 {
+	.team-description h3 {
 		margin: 0 0 1rem;
 		text-align: center;
 		font-weight: bold;
 		font-size: 1.125rem;
 	}
 
-	.contactPage__title {
+	.contactPage-title {
 		width: 90%;
 	}
 
@@ -482,7 +482,7 @@ footer {
 
 @media screen and (max-width: 850px) and (min-width: 481px) {
 
-	.teamPage__Joca {
+	.teamPage-joca {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -491,7 +491,7 @@ footer {
 		gap: 10%;
 	}
 
-	.teamPage__Guilherme {
+	.teamPage-guilherme {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -500,21 +500,21 @@ footer {
 		gap: 10%;
 	}
 
-	.team__portrait {
+	.team-portrait {
 		width: 40%;
 		padding: 24px 0;
 		margin-bottom: 1rem;
 	}
 
-	.team__pictures {
+	.team-pictures {
 		width: 85%;
 	}
 
-	.team__description {
+	.team-description {
 		width: 60%;
 	}
 
-	.team__description h3 {
+	.team-description h3 {
 		margin: 0 0 1rem;
 		text-align: center;
 		font-weight: bold;
@@ -527,7 +527,7 @@ footer {
 
 @media screen and (max-width: 1200px) and (min-width: 851px) {
 
-	.teamPage__Joca {
+	.teamPage-joca {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -536,7 +536,7 @@ footer {
 		gap: 10%;
 	}
 
-	.teamPage__Guilherme {
+	.teamPage-guilherme {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -545,21 +545,21 @@ footer {
 		gap: 10%;
 	}
 
-	.team__portrait {
+	.team-portrait {
 		width: 30%;
 		padding: 24px 0;
 		margin-bottom: 1rem;
 	}
 
-	.team__pictures {
+	.team-pictures {
 		width: 85%;
 	}
 
-	.team__description {
+	.team-description {
 		width: 60%;
 	}
 
-	.team__description h3 {
+	.team-description h3 {
 		margin: 0 0 1rem;
 		text-align: center;
 		font-weight: bold;
