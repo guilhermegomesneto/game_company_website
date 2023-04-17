@@ -318,9 +318,25 @@ header {
 		margin: 0 0 10px;
 	}
 
-	.standard_input {
+	textarea {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1rem;
+		border-radius: 8px;
+		border: 2px solid black;
+	}
+
+	input {
+		border-radius: 8px;
+	}
+
+	select {
+		border-radius: 4px;
+	}
+
+	.standard-input {
 		margin: 0 0 20px;
 		padding: 5px 10px;
+		font-size: 1rem;
 	}
 
 	.checkbox-container {
